@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: PersonalityStarter
+  host: balawatson
+  disk_quota: 1024M
+  services:
+  - PersonalityStarter-personality_insights
